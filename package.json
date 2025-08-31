@@ -30,7 +30,8 @@
   "scripts": {
     "check": "biome check",
     "lint": "biome check --fix",
-    "build": "tsup"
+    "build": "tsup",
+    "publish": "bun publish --access public"
   },
   "devDependencies": {
     "@biomejs/biome": "2.2.2",
