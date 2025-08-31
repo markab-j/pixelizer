@@ -45,7 +45,8 @@ image.onload = () => {
 
 ### Pixelizer
 ImageData를 픽셀화하거나 팔레트를 적용하는 클래스입니다.
-`pixelate(imageData: ImageData, pixelSize: number, palette?: RGB[]): ImageData`
+
+#### `pixelate(imageData: ImageData, pixelSize: number, palette?: RGB[]): ImageData`
 
 `ImageData`를 주어진 `pixelSize`에 따라 픽셀화합니다. 
 
@@ -69,7 +70,7 @@ ctx.putImageData(pixelatedImage, 0, 0);
 ```
 
 ---
-`applyPalette(imageData: ImageData, palette: RGB[]): ImageData`
+#### `applyPalette(imageData: ImageData, palette: RGB[]): ImageData`
 
 ImageData의 각 픽셀을 주어진 palette에서 가장 가까운 색상으로 변경합니다.
 - imageData:  [ImageData](https://developer.mozilla.org/en-US/docs/Web/API/ImageData) 객체
@@ -98,7 +99,8 @@ ctx.putImageData(newImage, 0, 0);
 
 ImageData로부터 색상 팔레트를 추출하는 클래스입니다.
 
-`extract(imageData: ImageData): RGB[]`
+#### `extract(imageData: ImageData): RGB[]`
+
 주어진 ImageData에 존재하는 픽셀을 그대로 추출하여 구성된 중복없는 RGB[]를 반환합니다.
 - imageData: [ImageData](https://developer.mozilla.org/en-US/docs/Web/API/ImageData) 객체
 - 반환값: { r: number; g: number; b: number; } 형태의 객체 배열.
