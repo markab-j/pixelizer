@@ -1,0 +1,11 @@
+{
+  "name": "@markab-j/pixelizer",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "1.2.21"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
