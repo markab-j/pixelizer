@@ -29,12 +29,14 @@
   ],
   "scripts": {
     "check": "biome check",
-    "lint": "biome check --fix"
+    "lint": "biome check --fix",
+    "build": "tsup"
   },
   "devDependencies": {
     "@biomejs/biome": "2.2.2",
     "@types/bun": "1.2.21",
-    "@types/node": "^24.3.0"
+    "@types/node": "^24.3.0",
+    "tsup": "8.5.0"
   },
   "peerDependencies": {
     "typescript": "^5"
