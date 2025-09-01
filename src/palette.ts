@@ -22,8 +22,8 @@ export class PaletteExtractor implements IPaletteExtractor {
 
       if (uniqueColors.has(colorKey)) continue;
 
-      if (palette.length >= 100) {
-        console.warn("palette is full. (max: 100)");
+      if (palette.length >= 256) {
+        console.warn("palette is full. (max: 256)");
         break;
       }
 
