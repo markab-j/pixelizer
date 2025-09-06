@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/dfbe6a3c-8f33-4b93-b9cb-7719167c3758" width="128" alt="Pixelizer Icon" />
+</p>
+
 # @markab-j/pixelizer
 
 @markab-j/pixelizer는 이미지 데이터를 픽셀화하고, 이미지에서 색상 팔레트를 추출하거나 특정 팔레트를 이미지에 적용하는 기능을 제공하는 라이브러리입니다.
